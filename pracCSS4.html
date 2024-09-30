@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castillo Silva Luis Angel</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        form{
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid rgb(128, 0, 0);
+            background-color: rgb(161, 206, 143);
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]{
+            background-color: rgb(244, 217, 153);
+            color: rgb(58, 9, 23);
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Emplacamiento</h1>
+    <form action="pracCSS5.html">
+
+        <label for="nombre">Color del Carro</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="Tipo">Marca del Carro</label>
+        <select id="Tipo" name="Tipo">
+            <option value="Nissan Versa">Nissan Versa</option>
+            <option value="Chevrolet Aveo">Chevrolet Aveo</option>
+            <option value="Volkswagen Virtus">Volkswagen Virtus</option>
+            <option value="Mazda3">Mazda3</option>
+        </select>
+
+        <label for="emplacado">¿Esta Emplacado?</label>
+        <input type="checkbox" id="emplacado" name="emplacado"> Si
+        <input type="checkbox" id="emplacado" name="emplacado"> No
+        <br><br>
+        <label>Placas del Estado o Distrito:</label>
+        <input type="radio" id="Estado" name="placas" value="Estado">Estado
+        <input type="radio" id="Distrito" name="placas" value="Distrito">Distrito
+
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+    <a href="pracCSS3.html">Anterior</a>
+    <br><br>
+    <a href="pracCSS5.html">Siguiente</a>
+    
+</body>
+</html>
